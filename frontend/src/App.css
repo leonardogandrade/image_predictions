@@ -1,0 +1,29 @@
+.App {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+button {
+  width: 140px;
+  height: 40px;
+  color: blue;
+}
+
+.image-header {
+  position: relative;
+  float: left;
+  width: 48%;
+  margin: 2% 1%;
+}
+
+.image-div p {
+  position: absolute;
+  padding: 5px;
+  background-color: rgba(255, 111, 0, 0.85);
+  color: #fff;
+  border: 1px dashed rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  font-size: 12px;
+  margin: 0;
+}
