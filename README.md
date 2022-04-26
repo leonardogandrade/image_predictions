@@ -4,6 +4,8 @@
 
 - Basta iniciar a aplicação frontend e a backend.
 
+- Altere o arquivo fileSystem.json na chave upload preencha com o caminho da pasta upload.
+
 - Faça o upload de imagens para a pasta upload no backend e acesse o frontent com:
 
 ```

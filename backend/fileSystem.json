@@ -1,4 +1,3 @@
 {
-  "upload": "/Users/andradel/Documents/studies/tensorflow-js/nodejs_tfjs/image_predictions/backend/upload",
-  "tfModel": "/Users/andradel/Documents/studies/tensorflow-js/nodejs_tfjs/image_predictions/backend/tf-model/"
+  "upload": "<path_pasta_upload>/backend/upload"
 }
