@@ -1,5 +1,4 @@
 backend/node_modules/
-backend/upload/*
 backend/src/resources/age_model_weights.h5
 frontend/node_modules/
 .gitignore
