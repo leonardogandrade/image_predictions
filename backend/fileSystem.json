@@ -1,3 +1,4 @@
 {
-  "upload": "/Users/andradel/Documents/studies/tensorflow-js/nodejs_tfjs/age_prediction/backend/upload"
+  "upload": "/Users/andradel/Documents/studies/tensorflow-js/nodejs_tfjs/image_predictions/backend/upload",
+  "tfModel": "/Users/andradel/Documents/studies/tensorflow-js/nodejs_tfjs/image_predictions/backend/tf-model/"
 }

@@ -4,14 +4,8 @@ const fs = require('fs').promises;
 const tf = require('@tensorflow/tfjs-node');
 const cocoSsd = require('@tensorflow-models/coco-ssd');
 
-let filename = 'dog.jpeg';
-
-const view = (req, res) => {
-    const page = path.resolve(__dirname, '../', 'view', 'object-detection.html');
-    res.sendFile(page);
-}
-
 const objectDetection = async (req, res) => {
+    const filename = req.params["filename"]
     const imagePath = await path.resolve(__dirname, '../', '../', 'upload', filename);
     // Load model
     const model = await cocoSsd.load();
@@ -31,5 +25,4 @@ const objectDetection = async (req, res) => {
 
 module.exports = {
     objectDetection,
-    view,
 }
